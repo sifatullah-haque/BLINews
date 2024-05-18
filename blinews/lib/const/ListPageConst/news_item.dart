@@ -29,7 +29,7 @@ class NewsItem extends StatelessWidget {
               width: 150.w,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
-                color: Theme.of(context).colorScheme.onPrimaryContainer,
+                color: Theme.of(context).colorScheme.primary,
               ),
             ),
             SizedBox(width: 8.w),

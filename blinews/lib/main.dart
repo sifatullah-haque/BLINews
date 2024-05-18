@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
               primary: const Color(0xffFF7F50),
               secondary: const Color(0xff3B3535),
               onBackground: Colors.white,
-              onPrimaryContainer: const Color(0xffD9D9D9),
             ),
             useMaterial3: true,
           ),

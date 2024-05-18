@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:blinews/const/ListPage/news_item.dart';
+import 'package:blinews/const/ListPageConst/news_item.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';

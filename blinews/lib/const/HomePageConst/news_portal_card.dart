@@ -30,7 +30,7 @@ class NewsPortalCard extends StatelessWidget {
               height: 180.h,
               width: double.infinity,
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.onPrimaryContainer,
+                color: Theme.of(context).colorScheme.primary,
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Padding(
@@ -44,14 +44,14 @@ class NewsPortalCard extends StatelessWidget {
                         Text(
                           author,
                           style: TextStyle(
-                            color: Theme.of(context).colorScheme.secondary,
+                            color: Theme.of(context).colorScheme.onBackground,
                             fontSize: 14.sp,
                           ),
                         ),
                         Text(
                           date,
                           style: TextStyle(
-                            color: Theme.of(context).colorScheme.secondary,
+                            color: Theme.of(context).colorScheme.onBackground,
                             fontSize: 14.sp,
                           ),
                         ),

@@ -1,5 +1,5 @@
-import 'package:blinews/const/HomePage/news_portal_card.dart';
-import 'package:blinews/const/HomePage/news_service.dart';
+import 'package:blinews/const/HomePageConst/news_portal_card.dart';
+import 'package:blinews/const/HomePageConst/news_service.dart';
 import 'package:blinews/pages/latest_news_list.dart';
 import 'package:blinews/pages/top_news_list.dart';
 import 'package:flutter/material.dart';
